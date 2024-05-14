@@ -56,17 +56,19 @@ EOF  help  quit
 (hbnb) 
 $
 Testing
+=========
 All the test are defined in the tests folder.
 
 Documentation
+=============
  Modules:
-python3 -c 'print(__import__("my_module").__doc__)'
+$ python3 -c 'print(__import__("my_module").__doc__)'
  classes:
 python3 -c 'print(__import__("my_module").MyClass.__doc__)'
  Functions (inside and outside a class):
-python3 -c 'print(__import__("my_module").my_function.__doc__)'
+$ python3 -c 'print(__import__("my_module").my_function.__doc__)'
  and
-python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'
+$ python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'
 Python Unit Tests
 unittest module
 File extension .py
@@ -77,9 +79,9 @@ or: python3 -m unittest tests/test_models/test_base.py
 run test in non-interactive mode
 To run the tests in non-interactive mode, and discover all the test, you can use the command:
  $ echo "python3 -m unittest discover tests" | bash
- ![image](https://github.com/ma09ry90/AirBnB_clone/assets/118520635/33f9e636-300c-42f5-a3d1-c9fc68536f9f)
-
- Usage
+ ![image](https://github.com/ma09ry90/AirBnB_clone/assets/118520635/dc753dde-074d-4d0e-8fb9-59661ef8a53f)
+Usage:
+======
  Start the console in interactive mode:
  $ ./console.py
 (hbnb)
