@@ -85,17 +85,19 @@ $ python3 -c 'print(__import__("my_module").__doc__)'
 python3 -c 'print(__import__("my_module").MyClass.__doc__)'
  * Functions (inside and outside a class):
 $ python3 -c 'print(__import__("my_module").my_function.__doc__)'
+
  and
+
 $ python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'
 
 ### Python Unit Tests
 
 * unittest module
-* File extension .py
-* Files and folders star with test_
-* Organization:for models/base.py, unit tests in: tests/test_models/test_base.py
-* Execution command: python3 -m unittest discover tests
-* or: python3 -m unittest tests/test_models/test_base.py
+* File extension `.py`
+* Files and folders star with `test_`
+* Organization:for `models/base.py`, unit tests in: `tests/test_models/test_base.py`
+* Execution command: `python3 -m unittest discover tests`
+* or:` python3 -m unittest tests/test_models/test_base.py`
 
 ### run test in non-interactive mode
 
@@ -107,9 +109,12 @@ To run the tests in non-interactive mode, and discover all the test, you can use
 ## Usage:
 
  * Start the console in interactive mode:
- $ ./console.py
+ ```
+$ ./console.py
 (hbnb)
+```
 * Use help to see the available commands:
+``` 
 (hbnb) help
 
 Documented commands (type help <topic>):
@@ -117,9 +122,12 @@ Documented commands (type help <topic>):
 EOF  all  count  create  destroy  help  quit  show  update
 
 (hbnb)
+```
 * Quit the console:
+```
 (hbnb) quit
 $
+```
 ## Authors
 
   * Mary Mengistu 
