@@ -1,6 +1,9 @@
 # AirBnB_clone
 Project done in teams of 2 people ( Mary Mengistu, Saad Belmajdoub)
- #Introduction(type help <topic>):
+
+ #Introduction:
+ =============
+
 *Team project to build a clone of AirBnB.
 
 *The console is a command interpreter to manage objects abstraction between objects and how they are stored.
