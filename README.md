@@ -15,20 +15,33 @@ Project done in teams of 2 people ( Mary Mengistu, Saad Belmajdoub)
 *do operations on objects.
 *destroy an object.
 ##Storage
+========
 All the classes are handled by the Storage engine in the FileStorage Class.
 ##Environment
+
 https://ubuntu.com/ 
+
 *Style guidelines:
+     
      https://pypi.org/project/pycodestyle/
 All the development and testing was runned over an operating system Ubuntu 20.04 LTS using programming language Python 3.8.3
- Installation
+
+ ##Installation:
+ ===============
+ 
  git clone https://github.com/ma09ry90/AirBnB_clone.git
+ 
  change to the AirBnb directory and run the command:
+ 
   ./console.py
-  Execution
+  
+  ##Execution:
+  =============
+  
    interactive mode:
-   $ ./console.py
-(hbnb) help
+   
+(code)   $ ./console.py 
+   (hbnb) help
 
 Documented commands (type help <topic>):
 ========================================
@@ -37,8 +50,10 @@ EOF  help  quit
 (hbnb) 
 (hbnb) 
 (hbnb) quit
-$
-non-interactive mode: (like the Shell project in C)
+$ (/code)
+
+non-interactive mode: (like the Shell project in C):
+
 $ echo "help" | ./console.py
 (hbnb)
 
