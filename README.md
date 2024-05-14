@@ -20,7 +20,7 @@ All the classes are handled by the `Storage` engine in the `FileStorage` Class.
 
 ## Environment:
 
-This site was built using [GitHub bash](https://git-scm.com/downloads)., [python](https://www.python.org/)., [vim](https://www.vim.org/).
+This site was built using [Git bash](https://git-scm.com/downloads), [python](https://www.python.org/), [vim](https://www.vim.org/).
 * Style guidelines:
      
      https://pypi.org/project/pycodestyle/
@@ -33,8 +33,7 @@ All the development and testing was runned over an operating system Ubuntu 20.04
  git clone https://github.com/ma09ry90/AirBnB_clone.git
 
 ```
-
-### change to the AirBnb directory and run the command: 
+change to the `AirBnb` directory and run the command: 
 
 ```
 ./console.py
