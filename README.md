@@ -1,22 +1,22 @@
 # AirBnB_clone
 Project done in teams of 2 people ( Mary Mengistu, Saad Belmajdoub)
- Introduction
-Team project to build a clone of AirBnB.
+ ##Introduction
+*Team project to build a clone of AirBnB.
 
-The console is a command interpreter to manage objects abstraction between objects and how they are stored.
+*The console is a command interpreter to manage objects abstraction between objects and how they are stored.
 
-The console will perform the following tasks:
+###The console will perform the following tasks:
 
-create a new object
-retrive an object from a file
-do operations on objects
-destroy an object
-Storage
-All the classes are handled by the Storage engine in the FileStorage Class
-0x02 Environment
-Suite CRM python Suite CRM Suite CRM git distributed version control system Github
-Style guidelines:
-.pycodestyle (version 2.7.*)
+*create a new object.
+*retrive an object from a file.
+*do operations on objects.
+*destroy an object.
+##Storage
+All the classes are handled by the Storage engine in the FileStorage Class.
+##Environment
+https://ubuntu.com/ 
+*Style guidelines:
+     https://pypi.org/project/pycodestyle/
 All the development and testing was runned over an operating system Ubuntu 20.04 LTS using programming language Python 3.8.3
  Installation
  git clone https://github.com/ma09ry90/AirBnB_clone.git
