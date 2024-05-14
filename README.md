@@ -50,7 +50,8 @@ EOF  help  quit
 (hbnb) 
 (hbnb) 
 (hbnb) quit
-$ (/code)
+$
+(/code)
 
 non-interactive mode: (like the Shell project in C):
 
